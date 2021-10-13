@@ -1,0 +1,71 @@
+.container{
+	position:absolute:
+}
+.one{
+	background-color:#524C4B;
+	position:relative;
+}
+
+.two{
+	background-color:white;
+}
+
+.three{
+	background-color:#524C4B;
+}
+
+.four{
+	background-color:white;
+}
+
+.sec1{
+	position:relative;
+	top:30px;
+	left:30px;
+}
+
+.primed{
+	color: #ffffff;
+	font-size:2em;
+}
+
+div.adv1:hover{
+	background-color: #DAF7A6;
+	color:#000000;
+}
+
+div.adv2:hover{
+	background-color: #FFC300;
+	color:#000000;
+}
+
+div.adv3:hover{
+	background-color: #91F35D;
+	color:#000000;
+}
+
+div.adv4:hover{
+	background-color: #5DF3EA;
+	color:#000000;
+}
+
+div.adv1{
+	text-align:center;
+}
+
+div.adv2{
+	text-align:center;
+}
+
+div.adv3{
+	text-align:center;
+}
+
+div.adv4{
+	text-align:center;
+}
+
+
+
+
+	
