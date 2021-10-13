@@ -51,6 +51,7 @@ div.adv4:hover{
 
 div.adv1{
 	text-align:center;
+	height:600px;
 }
 
 div.adv2{
@@ -67,6 +68,10 @@ div.adv4{
 
 a{
 	padding: 10px;
+}
+
+#topsec{
+	margin-bottom:40px;
 }
 
 
