@@ -16,9 +16,9 @@
 			<p class="primed">Prime Education</p>
 			<img src="logo.jpg" alt="Girl in a jacket" width="50%" height="50%">
 			<div class="menubar" id="barmenu">
-				<a href="">Services</a>
-				<a href="">Contact Us</a>
-				<a href="">Sign Up</a>
+				<a href="#serv" id="serv" class="a1">Services</a>
+				<a href="#cont" id="cont" class="a2">Contact Us</a>
+				<a href="#signup" id="signup" class="a3">Sign Up</a>
 			</div>
 		</div>
 			
@@ -40,10 +40,10 @@
 				<br>
 				<br>
 				<input type="submit" value="Submit">
-</form> 
+			</form> 
 		</div>
 		
-		<div class="two">
+		<div class="two" id="serv">
 			<p>Services</p>
 			
 			<div class="row">
@@ -66,8 +66,51 @@
 			</div>
 		</div>
 		
-		<div class="row three">
-			row 2
+		<div class="row three" id="cntus">
+			<form action="">
+				<label for="fname">fname:</label>
+				<br>
+				<input type="text" id="fname" name="fname" value="fname">
+				<br>
+				<label for="lname">lname:</label>
+				<br>
+				<input type="text" id="lname" name="lname" value="lname">
+				<br>			
+				<label for="address">address:</label>
+				<br>
+				<input type="text" id="address" name="address" value="address">
+				<br>
+				<label for="dob">dob:</label>
+				<br>
+				<input type="date" id="dob" name="dob" value="dob">
+				<br>
+				<label for="email">Email:</label>
+				<br>
+				<input type="email" id="email" name="email" value="email">
+				<br>
+				<label for="phone">Phone:</label>
+				<br>
+				<input type="text" id="phone" name="phone" value="000-0000">
+				<br>
+				
+				<select name="drinks" required>
+					<option value="" disabled selected hidden>Choose are of interest</option>
+					<option value="Math">Math</option>
+					<option value="Science">Science</option>
+					<option value="Social Studies">Social Studies</option>
+					<option value="Language Arts">Language Arts</option>
+					<option value="Spirituality">Spirituality</option>
+				</select>
+				
+				<br>
+				<label for="ageree">Check the box to agree:</label>
+				<br>
+				<input type="checkbox" id="subject" name="subject" value="">
+				<br>
+				<br>
+				<br>
+				<input type="submit" value="Submit">
+			</form> 
 		</div>
 		
 		<div class="row four">
@@ -81,7 +124,7 @@
 		crossorigin="anonymous">
 	</script> 
 
-	<script src='myjs/main.js'></script> 
+	<script src='myjs/main2.js'></script> 
 
 </body>
 </html>
